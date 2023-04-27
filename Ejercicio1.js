@@ -1,5 +1,5 @@
 //Ejercicio 1 
-const cant_metros=Parseint(prompt("Ingrese la cantidad de metros que debe viajar"));
+const cant_metros=parseInt(prompt("Ingrese la cantidad de metros que debe viajar"));
 if(cant_metros<=1000){
     document.write('Usted puede dirigirse al lugar yendo a pie.');
 }else if(cant_metros>1000 & cant_metros<=10000){
